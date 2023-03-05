@@ -24,7 +24,7 @@ library
   exposed-modules:
     System.Metrics.Json
   build-depends:
-    aeson >=0.4 && < 2.1,
+    aeson >=2.0 && < 2.2,
     base >= 4.6 && < 5,
     ekg-core >= 0.1 && < 0.2,
     text <= 2.1,
